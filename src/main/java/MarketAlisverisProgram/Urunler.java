@@ -72,6 +72,11 @@ public class Urunler {
                 kg = App.scan.nextDouble();
                 Sepet.sepeteEkle(no,kg);
                 break;
+            case 10:
+                System.out.println("Kac kg almak istiyorsunuz");
+                kg = App.scan.nextDouble();
+                Sepet.sepeteEkle(no,kg);
+                break;
             default:
                 System.out.println("Gecerli urun no giriniz");
                 alisveriseBasla();
